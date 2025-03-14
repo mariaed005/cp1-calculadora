@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import TelaInicial from './src/components/Formulario';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Calculadora</Text>
+      <TelaInicial/>
       <StatusBar style="auto" />
     </View>
   );
