@@ -36,15 +36,18 @@ const Formulario = ({onCalcular}) =>{
 
     const styles = StyleSheet.create(
         {
-            nomes:{                
+            nomes:{    
+                flex:1,            
                 justifyContent: 'center',
                 alignItems:'center'                
             },
             input:{
+                flex:1,
                 justifyContent: 'center',
                 alignItems:'center'
             },        
             imagem:{
+                flex:1,
                 width:20,
                 justifyContent:'center'
             }
