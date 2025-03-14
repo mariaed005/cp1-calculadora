@@ -28,9 +28,9 @@ const Formulario = ({onCalcular}) =>{
             <Text style={styles.nomes}>Nome Produto:</Text>
             <TextInput style={styles.input} value={nomeProduto} onChangeText={setNomeProduto}>Escreva o nome</TextInput>
             <Text style={styles.nomes}>Valor Original:</Text>
-            <TextInput style={styles.input} value={valorOriginal} onChangeText={setValorOriginal}>Escreva o valor</TextInput>
+            <TextInput style={styles.input} value={valorOriginal} keyboardType='numeric' onChangeText={setValorOriginal}>Escreva o valor</TextInput>
             <Text style={styles.nomes}>Porcentagem:</Text>
-            <TextInput style={styles.input} value={valorPorcentagem} onChangeText={setValorPorcentagem}>Escreva a porcentagem</TextInput>                
+            <TextInput style={styles.input} value={valorPorcentagem} keyboardType='numeric' onChangeText={setValorPorcentagem}>Escreva a porcentagem</TextInput>                
          </View>
     )
 
