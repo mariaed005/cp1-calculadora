@@ -24,6 +24,7 @@ const Formulario = ({onCalcular}) =>{
 
     return(
         <View>
+            <Image style={styles.imagem} source={require('../../assets/calculadora.png')}/>
             <Text style={styles.nomes}>Nome Produto:</Text>
             <TextInput style={styles.input} value={nomeProduto} onChangeText={setNomeProduto}>Escreva o nome</TextInput>
             <Text style={styles.nomes}>Valor Original:</Text>
@@ -42,7 +43,11 @@ const Formulario = ({onCalcular}) =>{
             input:{
                 justifyContent: 'center',
                 alignItems:'center'
-            }        
+            },        
+            imagem:{
+                width:20,
+                justifyContent:'center'
+            }
         }
         
     )
